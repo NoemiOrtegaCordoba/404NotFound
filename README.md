@@ -1,1 +1,1 @@
-# 404NotFound
+# Ejemplo de error 404

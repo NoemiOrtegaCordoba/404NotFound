@@ -1,0 +1,29 @@
+/*----------------------
+    Grid-Items
+-----------------------*/
+.grid-item1 {
+  grid-area: message;
+}
+.grid-item2 {
+  grid-area: left;
+  text-align: center;
+}
+
+.grid-item3 {
+  grid-area: right;
+}
+.grid-item4 {
+  grid-area: author;
+  text-align: center;
+}
+/*----------------------
+    Grid-Container
+-----------------------*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    "message message"
+    "left right"
+    "author author";
+}
